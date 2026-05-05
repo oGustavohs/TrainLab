@@ -1,48 +1,48 @@
- Projeto: TRAINLAB
+# TrainLab
 
-Esse projeto nasceu da junção de duas áreas que fazem parte da minha caminhada: a Educação Física (Sou formado) e a Análise e Desenvolvimento de Sistemas (Estudo atualmente).
+Comecei esse projeto porque já fui formado em Educação Física — e via todo dia gente treinando errado, sem estrutura, sem progressão. Resolvi juntar o que sei sobre treino com o que estou aprendendo em desenvolvimento e construir algo real.
 
-A ideia aqui foi simples, criar uma forma de montar treinos personalizados de maneira prática, acessível e organizada.
+Não é um exercício de curso. É uma plataforma funcional que avalia o perfil do usuário, define o nível de condicionamento e monta treinos personalizados com ilustrações e cronômetro integrado.
 
-Esse site permite gerar treinos de exercícios físicos com base em algumas necessidades do usuário. Ele foi desenvolvido utilizando apenas o básico do front-end:
+**[→ Acessar o TrainLab](https://ogustavohs.github.io/TrainLab/)**
 
-* HTML
-* CSS
-* JavaScript
+---
 
-Sem frameworks, sem bibliotecas externas — a proposta foi justamente reforçar a base.
-## 🎯 Objetivo
+## O que ele faz
 
-O principal objetivo desse projeto foi:
+O usuário responde algumas perguntas sobre frequência, experiência e objetivo. Com base nas respostas, o sistema define o nível (iniciante, intermediário ou avançado) e gera um plano de treino completo — com mais de 50 exercícios ilustrados, descanso cronometrado e histórico de sessões.
 
-* Aplicar conhecimentos de programação na prática
-* Unir tecnologia com a área da Educação Física
-* Criar algo útil, mesmo que simples
-* Evoluir na construção de interfaces e lógica com JavaScript
+Do cadastro ao primeiro treino em menos de 3 minutos.
 
+---
 
-Durante o desenvolvimento, trabalhei bastante com:
+## Por baixo dos panos
 
+Construído só com HTML, CSS e JavaScript puro — sem framework, sem biblioteca externa. A proposta foi resolver o problema com as ferramentas base antes de depender de atalhos.
 
-* Estruturação de layout com CSS
-* Organização de código
-* Lógica para personalização dos treinos
+A lógica de personalização, o cronômetro e todo o fluxo de onboarding foram feitos na mão, o que me fez entender de verdade como o JavaScript se comporta no DOM.
 
-Além disso, foi um projeto importante pra começar a pensar como desenvolvedor — saindo da teoria e indo pra prática de verdade.
+```
+index.html   → estrutura e fluxo de páginas
+style.css    → layout, animações, responsividade
+script.js    → lógica de avaliação, treinos e cronômetro
+```
 
+---
 
-Esse projeto ainda pode evoluir bastante tenho como ideias futuras:
+## O que aprendi
 
-* Responsividade melhor para dispositivos móveis
-* Integração com banco de dados
-* Sistema de login para salvar treinos
-* Filtros mais avançados (nível, objetivo, limitações físicas)
-* Uso de frameworks como React ou Vue
+Pensar em produto completo é diferente de pensar em código. Tive que mapear o fluxo inteiro — o que o usuário vê primeiro, o que acontece se ele errar, como ele volta atrás. Isso mudou como escrevo código.
 
+---
 
-Se quiser contribuir, dar sugestões ou trocar ideia, fica à vontade!
-Todo feedback é bem-vindo.
+## Próximas versões
 
+- [ ] Salvar histórico de treinos no localStorage
+- [ ] Migrar lógica para React
+- [ ] Integração com banco de dados para contas permanentes
+- [ ] Filtros por equipamento disponível e limitações físicas
 
+---
 
-💬 Projeto simples, mas com muito aprendizado envolvido. Esse é só o começo.
+Feito por **[Gustavo Henrique](https://github.com/oGustavohs)** · [Portfólio](https://ogustavohs.github.io/Front-End-Developed/) · [LinkedIn](https://www.linkedin.com/in/gustavo-henrique-3916ba297/)
